@@ -53,8 +53,8 @@
     resize: none;
     position: center;
 }
-.button1 input{
-    align-content: center;
+.button1 li{
+    margin-left: 46.5%;
   
 }
 #portfolio{
@@ -68,11 +68,14 @@
 #carouselExampleCaptions{
     width: 50%;
     height: 20%;
-    left: 30em;
     padding: 1em;
     position: center;
     align-content: center;
+    margin: auto;
 }
+
+
+
 
 
 
