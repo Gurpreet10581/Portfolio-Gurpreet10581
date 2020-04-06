@@ -53,8 +53,9 @@
     resize: none;
     position: center;
 }
-.submit{
+.button1 input{
     align-content: center;
+  
 }
 #portfolio{
     text-align: center;
@@ -73,7 +74,5 @@
     align-content: center;
 }
 
-.button{
-    margin: 50%;
-}
+
 
