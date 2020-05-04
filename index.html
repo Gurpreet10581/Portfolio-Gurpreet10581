@@ -16,6 +16,8 @@
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
+                 width: 100%;
+                 position: fixed;
                 overflow: hidden;
                 background-color: #333;
                 }
@@ -33,12 +35,12 @@
                 background-color: #111;
                 }
             </style>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a class="#portfolio" href="#portfolio">Portfolio</a></li>
-                    <li><a href="Assets/_Resume -Gurpreet Singh.pdf" target="blank" title="Resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul >
+                    <li ><a href="#home">Home</a></li>
+                    <li ><a href="#about">About</a></li>
+                    <li ><a class="#portfolio" href="#portfolio">Portfolio</a></li>
+                    <li ><a href="Assets/_Resume -Gurpreet Singh.pdf" target="blank" title="Resume">Resume</a></li>
+                    <li ><a href="#contact">Contact</a></li>
                     
                 </ul>
             <section class="jumbotron">
@@ -66,7 +68,7 @@
                               With completing Eleven Fifty Academy’s Software Development Course, I was able to find a platform to exercise my skills in problem solving and detail oriented results. Although I am new to developing, I am yearning to gain experience in areas that highlight my aptitude and creativity. 
                             </p>
                               
-                              My training with software developing has been challenging, but I am working hard to become the best developer I can be and am looking forward to a successful career in this industry. .
+                              My training with software developing has been challenging, but I am working hard to become the best developer I can be and am looking forward to a successful career in this industry. 
                             </p>
                             <div id="signature-div">
                             
@@ -118,24 +120,62 @@
               </div>
             </section>
                 <br><br>
-            	<!-- Contact Me -->
-        <section id="contact">
-            <div class="contact">
-                <h3 class="contact">Contact</h3>
-                <br>
-                <form >
-                    <div class="input">
-                            <input id="input" type="text" name="name"  placeholder="Name" required /> <br><br>
-                            <input id="input" type="email" name="email" placeholder="Email" required /><br><br>
-                            <input id="input" type="text" name="subject"  placeholder="Subject" required /><br><br>
-                            <textarea id="text-box" name="message"  placeholder="Message" rows="6" required></textarea><br><br>
-                            <ul class="button1">
-                                <li id="button"><input id="submit" type="submit" class="special" value="Send" /></li>
-                            </ul>
-                    </div>
+              <!-- Contact Me -->
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+
+                input[type=text], select, textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                  margin-top: 6px;
+                  margin-bottom: 16px;
+                  resize: vertical;
+                }
+
+                input[type=submit] {
+                  background-color: #333;
+                  color: white;
+                  padding: 12px 20px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                }
+
+                input[type=submit]:hover {
+                  background-color: rgb(42, 87, 124);
+                }
+
+                .container {
+                  border-radius: 5px;
+                  background-color: #f2f2f2;
+                  padding: 20px;
+                }
+                </style>
+
+              <h2 class="contact">Contact Me</h2>
+
+              <div class="container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="lname">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
                 </form>
-            </div>
-        </section>
+              </div>
 				<!--Find Me -->
             <section id="footer">
                 <div class= "Footer">

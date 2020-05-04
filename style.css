@@ -8,12 +8,7 @@
     width: 200px;
     bottom: 1000px;
 }
-#footer-logo{
-    height: 50px;
-}
-.Footer{
-    text-align: center;
-}
+
 .contact{
     background: #888E8C;
     text-align: center;
@@ -48,6 +43,7 @@
     box-sizing: border-box;
     border: 2px solid rgb(8, 7, 7);
     border-radius: 4px;
+    
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
@@ -73,6 +69,22 @@
     align-content: center;
     margin: auto;
 }
+
+.Footer{
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+    
+}
+#footer-logo{
+    height: 50px;
+}
+.contact{ 
+    text-align: center;
+    text-decoration: underline;
+    background-color: white;
+}
+
 
 
 
