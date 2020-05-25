@@ -84,6 +84,27 @@
     text-decoration: underline;
     background-color: white;
 }
+.WorkDetail{
+    text-align: center;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-left: 2em;
+    border-radius: 2em;
+
+}
+
+.card-img1{
+    z-index: auto;
+    float: right;
+    width: 50%;
+    height: 80%;
+    padding-right: 2em;
+    border-radius: 5%;
+    top: 60px;
+    right:  50px;
+    position: absolute;
+
+}
 
 
 
