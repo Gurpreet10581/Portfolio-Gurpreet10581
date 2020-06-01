@@ -73,8 +73,12 @@
 .Footer{
     background-color: #f8f8f8;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     
+}
+.logo{
+    text-align: center;
+    background-color: #f8f8f8;
 }
 #footer-logo{
     height: 50px;
@@ -104,6 +108,11 @@
     right:  50px;
     position: absolute;
 
+}
+.social{
+    float: left;
+   
+    position: relative;
 }
 
 
